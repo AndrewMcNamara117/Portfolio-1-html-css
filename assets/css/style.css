@@ -1,1 +1,11 @@
-body {font-family: Arial;}
+@import url('https://fonts.googleapis.com/css2?family=Ephesis&family=Lato&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+body {font-family: Ephesis;
+      font-weight: 400;
+    }
