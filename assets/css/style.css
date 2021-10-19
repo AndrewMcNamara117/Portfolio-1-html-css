@@ -6,6 +6,20 @@
     border: none;
 }
 
-body {font-family: Ephesis;
-      font-weight: 400;
+body {font-family: Lato, sans-serif;
+      font-weight: 500;
+      color: #2c2424;
+    }
+
+    /* headings and logo */
+    h1, h2 {
+        font-family: Ephesis, sans-serif;
+        text-transform: capitalize;
+        letter-spacing: normal;
+        color: #252525;
+    }
+
+    #logo {
+        float: left;
+        font-size: 285%;
     }
