@@ -21,7 +21,7 @@ body {font-family: Lato, sans-serif;
 
     #logo {
         float: left;
-        font-size: 285%;
+        font-size: 385%;
     }
 
     #menu {
@@ -56,15 +56,20 @@ body {font-family: Lato, sans-serif;
         border-bottom: 1px solid #5a5555;
     }
 
-    /* main image */
+    /* main image and cover text*/
     
     #main-outer {
         
         height: 600px;
         width: 100%;
         overflow: hidden;
+
+        position: relative;
     }
 
+    #cover-text #cover-text h2 {
+        color: white;
+    }
 
     #main-image {
         height: 600px;
@@ -87,3 +92,24 @@ body {font-family: Lato, sans-serif;
             transform: scale(1.1);
         }
     }
+
+    #cover-text {
+        font-size: 130%;
+        font-family: Ephesis, sans-serif;
+        text-transform: capitalize;
+        letter-spacing: normal;
+
+        width: 300px;
+        height: 200px;
+
+        padding-top: 40px;
+        padding-left: 10px;
+        color:#5a5555;
+        top:0px;
+        left:0px;
+
+        position: absolute;
+         
+    }
+
+
