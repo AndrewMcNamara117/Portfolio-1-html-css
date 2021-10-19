@@ -7,8 +7,8 @@
 }
 
 body {font-family: Lato, sans-serif;
-      font-weight: 500;
-      color: #2c2424;
+      font-weight: 400;
+      color: #5a5555;
     }
 
     /* headings and logo */
@@ -16,10 +16,42 @@ body {font-family: Lato, sans-serif;
         font-family: Ephesis, sans-serif;
         text-transform: capitalize;
         letter-spacing: normal;
-        color: #252525;
+        color: #58694c;
     }
 
     #logo {
         float: left;
         font-size: 285%;
+    }
+
+    #menu {
+        font-size: 160%;
+        letter-spacing: normal;
+        font-family: Ephesis, sans-serif;
+        text-transform: capitalize;
+    }
+
+    #menu, #logo {
+        line-height: 75px;
+    }
+
+    #menu li {
+        float: right;
+        list-style-type: none;
+        margin-right: 30px; 
+        font-family: Ephesis, sans-serif;
+        text-transform: capitalize;
+    }
+
+    #menu a {
+        text-decoration: none;
+        color: inherit;
+    }
+
+    #menu a:hover {
+      border-bottom: 1px solid #5a5555;
+    }
+
+    .active {
+        border-bottom: 1px solid #5a5555;
     }
