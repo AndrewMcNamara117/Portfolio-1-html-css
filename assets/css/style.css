@@ -187,7 +187,7 @@ body {font-family: Lato, sans-serif;
     
     #challenge {
         background-image: url(../images/balance-mindfullness.webp);
-        height: 650px;
+        height: 600px;
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
@@ -204,6 +204,18 @@ body {font-family: Lato, sans-serif;
         to{
             transform: scale(1);
         }
+    }
+
+    #challenge div {
+        color: #353434;
+        width: 20%;
+        height: 216px;
+        float: left;
+        padding: 30px 0 0 10px;
+        text-align: center;
+        box-sizing: border-box;
+        font-family: Ephesis, sans-serif;
+        font-size: 150%;
     }
     
 
