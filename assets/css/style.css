@@ -183,5 +183,28 @@ body {font-family: Lato, sans-serif;
         border-radius: 50%;
     }
 
+    /* 5 day challenge */
+    
+    #challenge {
+        background-image: url(../images/balance-mindfullness.webp);
+        height: 650px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        width: 100%;
+        overflow: hidden;
+        animation-name: secondary-zoom;
+        animation-duration: 5s;
+        animation-fill-mode: backwards;
+    }
+    @keyframes secondary-zoom {
+        from{
+        transform: scale(1.1);
+        }
+        to{
+            transform: scale(1);
+        }
+    }
+    
 
 
