@@ -239,5 +239,19 @@ body {font-family: Lato, sans-serif;
         color: #d3803b;
     }
 
+    /* gallery */ 
+
+    #photos {
+        clear: both;
+        line-height: 0;
+        column-count: 4;
+        column-gap: 0;
+    }
+
+    #photo > img {
+        width: 100%;
+        
+    }
+
 
 
