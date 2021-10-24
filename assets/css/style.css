@@ -77,6 +77,7 @@ body {font-family: Lato, sans-serif;
         height: 600px;
         width: 100%;
         background: url('../images/monk-mindfullness.jpg') no-repeat center center;
+        background-size: cover;
 
         /*animates zoom effect on loading page */
         animation-name: main-zoom;
@@ -125,6 +126,16 @@ body {font-family: Lato, sans-serif;
         width: 33%;
         float: left;
     }
+
+    @media screen and (max-width:1200px) {
+        #left-about, #right-about {
+        max-width: 50%;
+        width: 100%;
+        float: left;
+        padding: 0;
+        }
+    }
+
 
     #right-about {
         padding-top: 30px;
@@ -209,10 +220,13 @@ body {font-family: Lato, sans-serif;
 
     #challenge div {
         color: #353434;
-        width: 20%;
+        min-width: 19%;
+        max-width: 19%;
+        display: inline-block;
         height:300px;
-        float: left;
+        vertical-align: top;
         padding: 30px 0 0 10px;
+        margin: 0.25%;
         text-align: center;
         box-sizing: border-box;
         font-family: Ephesis, sans-serif;
@@ -289,9 +303,14 @@ body {font-family: Lato, sans-serif;
     }
     
     #left-about, #right-about {
-        width: 100%;
+        max-width: 45%; /* adjusted */
         float: left;
-        padding: 0;
+        padding: 2.5%; /* adjusted */
+    }
+
+     /* adjusted */
+    #right-about {
+        width: unset;
     }
 
     #center-about {
