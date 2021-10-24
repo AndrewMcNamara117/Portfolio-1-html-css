@@ -9,6 +9,7 @@
 body {font-family: Lato, sans-serif;
       font-weight: 400;
       color: #5a5555;
+       background: linear-gradient(45deg, #190f2c, #200b30);
     }
 
     /* headings and logo */
@@ -241,17 +242,49 @@ body {font-family: Lato, sans-serif;
 
     /* gallery */ 
 
-    #photos {
-        clear: both;
-        line-height: 0;
-        column-count: 4;
-        column-gap: 0;
+#photos {
+   clear: both;
+   line-height: 0;
+   column-count: 4;
+   column-gap: 0;
+}
+
+#photos > id {
+    width: 100%;
+}
+
+/* Media Queries */ 
+
+/* For larger to medium screens size from 1200px wide and down */
+
+@media screen and (max-width: 1200px) {
+    #mindfullness-ethos {
+        width: 65%;
+        height: 1200px;
+        margin: 0 auto;
     }
 
-    #photo > img {
+    #welcome {
+        padding: 30px 0;
+        margin: 0;
+    }
+    
+    #left-about, #right-about {
         width: 100%;
-        
+        float: left;
+        padding: 0;
     }
 
+    #center-about {
+        clear: both;
+        width: 100%;
+        float: left;
+        padding: 0;
+    }
+
+    hr {
+        display: none;
+    }
+}
 
 
