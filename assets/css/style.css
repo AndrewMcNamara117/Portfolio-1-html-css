@@ -1,292 +1,300 @@
 @import url('https://fonts.googleapis.com/css2?family=Ephesis&family=Lato&display=swap');
 
-*{
+* {
     margin: 0;
     padding: 0;
     border: none;
 }
 
-body {font-family: Lato, sans-serif;
-      font-weight: 400;
-      color: #5a5555;
-       background: linear-gradient(45deg, #190f2c, #200b30);
-    }
+body {
+    font-family: Lato, sans-serif;
+    font-weight: 400;
+    color: #5a5555;
+    background: linear-gradient(45deg, #190f2c, #200b30);
+}
 
-    /* headings and logo */
-    h1, h2 {
-        font-family: Ephesis, sans-serif;
-        text-transform: capitalize;
-        letter-spacing: none;
-        color: #d3803b;
-    }
+/* headings and logo */
+h1,
+h2 {
+    font-family: Ephesis, sans-serif;
+    text-transform: capitalize;
+    letter-spacing: none;
+    color: #d3803b;
+}
 
-    #logo {
-        float: left;
-        font-size: 385%;
-        margin-left: 30px;
-    }
+#logo {
+    float: left;
+    font-size: 385%;
+    margin-left: 30px;
+}
 
-    #menu {
-        font-size: 160%;
-        letter-spacing: normal;
-        font-family: Ephesis, sans-serif;
-        text-transform: capitalize;
-    }
+#menu {
+    font-size: 160%;
+    letter-spacing: normal;
+    font-family: Ephesis, sans-serif;
+    text-transform: capitalize;
+}
 
-    #menu, #logo {
-        line-height: 75px;
-    }
+#menu,
+#logo {
+    line-height: 75px;
+}
 
-    #menu li {
-        float: right;
-        list-style-type: none;
-        margin-right: 30px; 
-        font-family: Ephesis, sans-serif;
-        text-transform: capitalize;
-    }
+#menu li {
+    float: right;
+    list-style-type: none;
+    margin-right: 30px;
+    font-family: Ephesis, sans-serif;
+    text-transform: capitalize;
+}
 
-    #menu a {
-        text-decoration: none;
-        color: inherit;
-    }
+#menu a {
+    text-decoration: none;
+    color: inherit;
+}
 
-    #menu a:hover {
-      border-bottom: 1px solid #5a5555;
-    }
+#menu a:hover {
+    border-bottom: 1px solid #5a5555;
+}
 
-    .active {
-        border-bottom: 1px solid #5a5555;
-    }
+.active {
+    border-bottom: 1px solid #5a5555;
+}
 
-    /* main image and cover text*/
-    
-    #main-outer {
-        
-        height: 600px;
-        width: 100%;
-        overflow: hidden;
+/* main image and cover text*/
 
-        position: relative;
-    }
+#main-outer {
 
-    #cover-text #cover-text h2 {
-        color: white;
-    }
+    height: 600px;
+    width: 100%;
+    overflow: hidden;
 
-    #main-image {
-        height: 600px;
-        width: 100%;
-        background: url('../images/monk-mindfullness.jpg') no-repeat center center;
-        background-size: cover;
+    position: relative;
+}
 
-        /*animates zoom effect on loading page */
-        animation-name: main-zoom;
-        animation-duration: 5s;
-        animation-fill-mode: forwards;
-    }
+#cover-text #cover-text h2 {
+    color: white;
+}
 
-    /* creates the level of zoom for hero image */
+#main-image {
+    height: 600px;
+    width: 100%;
+    background: url('../images/monk-mindfullness.jpg') no-repeat center center;
+    background-size: cover;
 
-    @keyframes main-zoom {
-        from{
+    /*animates zoom effect on loading page */
+    animation-name: main-zoom;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+}
+
+/* creates the level of zoom for hero image */
+
+@keyframes main-zoom {
+    from {
         transform: scale(1);
-        }
-        to{
-            transform: scale(1.1);
-        }
     }
 
-    #cover-text {
-        font-size: 130%;
-        font-family: Ephesis, sans-serif;
-        text-transform: capitalize;
-        letter-spacing: normal;
-
-        width: 300px;
-        height: 200px;
-
-        padding-top: 40px;
-        padding-left: 10px;
-        color:#5a5555;
-        top:0px;
-        left:0px;
-
-        position: absolute;
-
+    to {
+        transform: scale(1.1);
     }
+}
 
-    /* mindfullness ethos */
+#cover-text {
+    font-size: 130%;
+    font-family: Ephesis, sans-serif;
+    text-transform: capitalize;
+    letter-spacing: normal;
 
-    #mindfullness-ethos {
-        height: 600px;
-    }
+    width: 300px;
+    height: 200px;
 
-    #left-about {
-        padding-top: 30px;
-        width: 33%;
-        float: left;
-    }
+    padding-top: 40px;
+    padding-left: 10px;
+    color: #5a5555;
+    top: 0px;
+    left: 0px;
 
-    @media screen and (max-width:1200px) {
-        #left-about, #right-about {
+    position: absolute;
+
+}
+
+/* mindfullness ethos */
+
+#mindfullness-ethos {
+    height: 600px;
+}
+
+#left-about {
+    padding-top: 30px;
+    width: 33%;
+    float: left;
+}
+
+@media screen and (max-width:1200px) {
+
+    #left-about,
+    #right-about {
         max-width: 50%;
         width: 100%;
         float: left;
         padding: 0;
-        }
     }
+}
 
 
-    #right-about {
-        padding-top: 30px;
-        width: 33%;
-        float: right;
-    }
+#right-about {
+    padding-top: 30px;
+    width: 33%;
+    float: right;
+}
 
-    #center-about {
-        width: 33%;
-        margin: 0 auto;
-    }
+#center-about {
+    width: 33%;
+    margin: 0 auto;
+}
 
-    .left-about-heading {
-        width: 60%;
-        float: right;
-        line-height: 20px;
-        clear: both;
-        margin-bottom: 50px;
-    }
+.left-about-heading {
+    width: 60%;
+    float: right;
+    line-height: 20px;
+    clear: both;
+    margin-bottom: 50px;
+}
 
-    .right-about-heading {
-        width: 60%;
-        float: left;
-        line-height: 20px;
-        clear: both;
-        margin-bottom: 50px;
-    }
+.right-about-heading {
+    width: 60%;
+    float: left;
+    line-height: 20px;
+    clear: both;
+    margin-bottom: 50px;
+}
 
-    .right-about-heading h2 {
-        text-align: right;
-    }
+.right-about-heading h2 {
+    text-align: right;
+}
 
-    .right-about-heading {
-        text-align: right;
-    }
+.right-about-heading {
+    text-align: right;
+}
 
-    #welcome {
-        text-align: center;
-        margin: 25px 0;
-        font-size: 280%;
-    }
+#welcome {
+    text-align: center;
+    margin: 25px 0;
+    font-size: 280%;
+}
 
-    #circle-container {
-        width: 300px;
-        height: 300px;
-        padding: 30px;
-        border-style: none;
-        border-color:#f5f3f2;
-        border-width: 1px;
-        border-radius: 50%;
-        margin: 0 auto ;
-    }
+#circle-container {
+    width: 300px;
+    height: 300px;
+    padding: 30px;
+    border-style: none;
+    border-color: #f5f3f2;
+    border-width: 1px;
+    border-radius: 50%;
+    margin: 0 auto;
+}
 
-    #circle-cover-bg {
-        background: url(../images/mindset-center-image.png) no-repeat center center;
-        height: 100%;
-        border-radius: 50%;
-    }
+#circle-cover-bg {
+    background: url(../images/mindset-center-image.png) no-repeat center center;
+    height: 100%;
+    border-radius: 50%;
+}
 
-    /* 5 day challenge */
-    
-    #challenge {
-        background-image: url(../images/balance-mindfullness.webp);
-        height: 600px;
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: center;
-        width: 100%;
-        overflow: hidden;
-        animation-name: secondary-zoom;
-        animation-duration: 5s;
-        animation-fill-mode: backwards;
-    }
-    @keyframes secondary-zoom {
-        from{
+/* 5 day challenge */
+
+#challenge {
+    background-image: url(../images/balance-mindfullness.webp);
+    height: 600px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    overflow: hidden;
+    animation-name: secondary-zoom;
+    animation-duration: 5s;
+    animation-fill-mode: backwards;
+}
+
+@keyframes secondary-zoom {
+    from {
         transform: scale(1.1);
-        }
-        to{
-            transform: scale(1);
-        }
     }
 
-    #challenge div {
-        color: #353434;
-        min-width: 19%;
-        max-width: 19%;
-        display: inline-block;
-        height:300px;
-        vertical-align: top;
-        padding: 30px 0 0 10px;
-        margin: 0.25%;
-        text-align: center;
-        box-sizing: border-box;
-        font-family: Ephesis, sans-serif;
-        font-size: 120%;
+    to {
+        transform: scale(1);
     }
-    
-    /* footer */
+}
 
-    footer {
-        height: 150px;
-    }
+#challenge div {
+    color: #353434;
+    min-width: 19%;
+    max-width: 19%;
+    display: inline-block;
+    height: 300px;
+    vertical-align: top;
+    padding: 30px 0 0 10px;
+    margin: 0.25%;
+    text-align: center;
+    box-sizing: border-box;
+    font-family: Ephesis, sans-serif;
+    font-size: 120%;
+}
 
-    .social-networks {
-        text-align: center;
-    }
+/* footer */
 
-    .social-networks > li {
-        display: inline;
-    }
+footer {
+    height: 150px;
+}
 
-    .social-networks i {
-        font-size: 160%;
-        margin: 1%;
-        padding: 5%;
-        color: #d3803b;
-    }
+.social-networks {
+    text-align: center;
+}
 
-    /* gallery */ 
+.social-networks>li {
+    display: inline;
+}
+
+.social-networks i {
+    font-size: 160%;
+    margin: 1%;
+    padding: 5%;
+    color: #d3803b;
+}
+
+/* gallery */
+.grid {
+    column-count: 4;
+    column-gap: .5em;
+    max-width: 980px;
+    margin: auto;
+    width: 100%;
+}
+
+img {
+    height: auto;
+    max-width: 100%;
+}
+
+@media(max-width: 800px) {
     .grid {
-        column-count: 4;
-        column-gap: .5em;
-        max-width: 980px;
-        margin: auto;
-        width: 100%;
-      }
-      
-      img {
-        height: auto;
-        max-width: 100%;
-      }
-      
-      @media(max-width: 800px) {
-          .grid {
-            column-count: 3;
-        }
-      }
-      
-      @media(max-width: 600px) {
-          .grid {
-            column-count: 2;
-        }
-      }
-      
-      @media(max-width: 400px) {
-          .grid {
-            column-count: 1;
-        }
-      }
+        column-count: 3;
+    }
+}
 
-/* Media Queries */ 
+@media(max-width: 600px) {
+    .grid {
+        column-count: 2;
+    }
+}
+
+@media(max-width: 400px) {
+    .grid {
+        column-count: 1;
+    }
+}
+
+/* Media Queries */
 
 /* For larger to medium screens size from 1200px wide and down */
 
@@ -301,14 +309,17 @@ body {font-family: Lato, sans-serif;
         padding: 30px 0;
         margin: 0;
     }
-    
-    #left-about, #right-about {
-        max-width: 45%; /* adjusted */
+
+    #left-about,
+    #right-about {
+        max-width: 45%;
+        /* adjusted */
         float: left;
-        padding: 2.5%; /* adjusted */
+        padding: 2.5%;
+        /* adjusted */
     }
 
-     /* adjusted */
+    /* adjusted */
     #right-about {
         width: unset;
     }
@@ -335,98 +346,128 @@ body {font-family: Lato, sans-serif;
         margin-bottom: 20px;
         line-height: 25px;
     }
-    
+
     #cover-text {
         left: 0;
     }
-    
+
     #mindfullness-ethos {
         width: 90%;
         height: 1200px;
         margin: 0 auto;
     }
 
-    .left-about-heading, .right-about-heading {
+    .left-about-heading,
+    .right-about-heading {
         width: inherit;
     }
 
-    .left-about-heading h2, .right-about-heading h2 {
+    .left-about-heading h2,
+    .right-about-heading h2 {
         width: 100%;
         text-align: center;
     }
-    .left-about-heading p, .right-about-heading p {
+
+    .left-about-heading p,
+    .right-about-heading p {
         text-align: center;
         padding: 0 20px;
     }
 }
 
-/* sign up */ 
+/* sign up */
 
-* {box-sizing: border-box}
-
-/* Full-width input fields */
-  input[type=text], input[type=password] {
-  width: 100%;
-  padding: 15px;
-  margin: 5px 0 22px 0;
-  display: inline-block;
-  border: none;
-  background:#d3803b;
+* {
+    box-sizing: border-box
 }
 
-input[type=text]:focus, input[type=password]:focus {
-  background-color: #ddd;
-  outline: none;
+/* Full-width input fields */
+input[type=text],
+input[type=password] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #d3803b;
+}
+
+input[type=text]:focus,
+input[type=password]:focus {
+    background-color: #ddd;
+    outline: none;
 }
 
 hr {
-  border: 1px solid #200b30;
-  margin-bottom: 25px;
+    border: 1px solid #200b30;
+    margin-bottom: 25px;
 }
 
 /* Set a style for all buttons */
 button {
-  background-color: #d3803b;
-  color: #200b30;
-  padding: 14px 20px;
-  margin: 8px 0;
-  border: none;
-  cursor: pointer;
-  width: 100%;
-  opacity: 0.9;
+    background-color: #d3803b;
+    color: #200b30;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
 }
 
 button:hover {
-  opacity:1;
+    opacity: 1;
 }
 
 /* Extra styles for the cancel button */
 .cancelbtn {
-  padding: 14px 20px;
-  background-color: #d3803b;
+    padding: 14px 20px;
+    background-color: #d3803b;
 }
 
 /* Float cancel and signup buttons and add an equal width */
-.cancelbtn, .signupbtn {
-  float: left;
-  width: 50%;
+.cancelbtn,
+.signupbtn {
+    float: left;
+    width: 50%;
 }
 
 /* Add padding to container elements */
 .container {
-  padding: 16px;
+    padding: 16px;
 }
 
 /* Clear floats */
 .clearfix::after {
-  content: "";
-  clear: both;
-  display: table;
+    content: "";
+    clear: both;
+    display: table;
 }
 
 /* Change styles for cancel button and signup button on extra small screens */
 @media screen and (max-width: 300px) {
-  .cancelbtn, .signupbtn {
-    width: 100%;
-  }
+
+    .cancelbtn,
+    .signupbtn {
+        width: 100%;
+    }
 }
+
+#photo {
+top: 0;
+left: 0;
+z-index: -1;
+}
+
+form {
+position: absolute;
+top: 58%;
+left: 34%;
+transform: translate(-50%, -50%);
+}
+
+.responsive {
+    width: 100%;
+    height: auto;
+  }
+
