@@ -5,7 +5,7 @@
 - Users of this website will be able to learn about the benefits of mediation/mindfullness, a gallery of peaceful images and a sign up form. This site is targeted towards those who want to better their mind and learn the benifits of mediation.
 
 
- <img src='assets/images/navbar-project.png' alt="screenshot of navbar'>
+ ![alt text](assets/images/Screenshot-project.png 'screenshot of responsiveness')
 
 ## Features 
 
@@ -19,7 +19,7 @@
 
 - The navigation clearly tells the user the name of the website and makes the different sections of the website easy to find.
 
-<img src='assets/images/navbar-project.png' alt='screenshot of navbar'>
+![alt text](assets/images/navbar-project.png "Screenshot of navbar")
 
 - __The header__
 
@@ -29,21 +29,21 @@
 
   - This section provides clear information about what the site is and where the pages are located.
 
-<img src='assets/images/navbar-project.png' alt='screenshot of navbar'>
+![alt text](assets/images/navbar-project.png "Screenshot of navbar")
 
 - __Benefits Of Meditation__
 
   - The benefits of meditation section gives details about what the benefits of meditation are.
   
   - This section shows the user the important information about meditation:How it can help in different ways including medical conditions,kids in schools and improving our mental state.
-<img src='assets/images/benefits-of-meditation-project.png' alt='screenshot of benefits section'>
+![alt text](assets/images/benefits-of-meditation-project.png 'screenshot of benefits section')
 
 - __5 day challenge__
 
   - This section will allow the user to see the tasks for the 5 day challenge. 
   - It clearly shows the different days and challenges for each day. 
 
-<img src='assets/images/challenge-project.png' alt='screenshot of challenge section'>
+![alt text](assets/images/challenge-project.png 'screenshot of challenge section')
 
 - __The Footer__ 
 
@@ -57,13 +57,13 @@
   - The gallery will provide the user with supporting images to help them get into a state of calm and peace, each photo in the gallery is keeping with the theme of mindfullness and a state of peace.
   - This section is valuable to the user as they will be able to focus on getting into a good mindset and a state of relaxation.
 
-<img src='assets/images/gallery-project.png' alt='screenshot of gallery'>
+![alt text](assets/images/gallery-project.png 'screenshot of gallery')
 
 - __The Sign Up Page__
 
   - This page will allow the user to get signed up to Mountain of practice to start their mindfullness journey. The user will be asked to submit their full name and email address. 
 
-<img src='assets/images/signup-form-project.png' alt='screenshot of gallery'>
+![alt text](assets/images/signup-form-project.png 'screenshot of gallery')
 
 ## Testing 
  - I tested that this page works for differen't browsers:Firefox,Chrome,Safari.
@@ -82,7 +82,7 @@
  - Accessibility 
  - I confirmed that the fonts and colors chosen are easily read and accessible by running it through lighthouse in devtools.
 
- <img src='assets/images/lighthouse-screenshot.png' alt='screenshot of lighthouse testing'>
+ ![alt text](assets/images/lighthouse-screenshot.png 'screenshot of lighthouse testing')
 
 ### Bugs
 
