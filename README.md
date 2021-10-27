@@ -4,7 +4,8 @@
 
 - Users of this website will be able to learn about the benefits of mediation/mindfullness, a gallery of peaceful images and a sign up form. This site is targeted towards those who want to better their mind and learn the benifits of mediation.
 
-![Responsive Mockup](https://github.com/lucyrush/readme-template/blob/master/media/love_running_mockup.png)
+
+ <img src='assets/images/navbar-project.png' alt="screenshot of navbar'>
 
 ## Features 
 
@@ -18,7 +19,7 @@
 
 - The navigation clearly tells the user the name of the website and makes the different sections of the website easy to find.
 
-![Nav Bar](https://github.com/lucyrush/readme-template/blob/master/media/love_running_nav.png)
+<img src='assets/images/navbar-project.png' alt='screenshot of navbar'>
 
 - __The header__
 
@@ -28,40 +29,41 @@
 
   - This section provides clear information about what the site is and where the pages are located.
 
-![Landing Page](https://github.com/lucyrush/readme-template/blob/master/media/love_running_landing.png)
+<img src='assets/images/navbar-project.png' alt='screenshot of navbar'>
 
 - __Benefits Of Meditation__
 
   - The benefits of meditation section gives details about what the benefits of meditation are.
   
   - This section shows the user the important information about meditation:How it can help in different ways including medical conditions,kids in schools and improving our mental state.
-![Club Ethos](https://github.com/lucyrush/readme-template/blob/master/media/love_running_ethos.png)
+<img src='assets/images/benefits-of-meditation-project.png' alt='screenshot of benefits section'>
 
 - __5 day challenge__
 
   - This section will allow the user to see the tasks for the 5 day challenge. 
   - It clearly shows the different days and challenges for each day. 
 
-![Meetup Times](https://github.com/lucyrush/readme-template/blob/master/media/love_running_times.png)
+<img src='assets/images/challenge-project.png' alt='screenshot of challenge section'>
 
 - __The Footer__ 
 
   - The footer section includes links to the relevant social media sites for Mountain of practice. The links will open to a new tab to allow easy navigation for the user. 
   - The footer is valuable to the user as it encourages them to keep connected via social media.
 
-![Footer](https://github.com/lucyrush/readme-template/blob/master/media/love_running_footer.png)
+
 
 - __Gallery__
 
   - The gallery will provide the user with supporting images to help them get into a state of calm and peace, each photo in the gallery is keeping with the theme of mindfullness and a state of peace.
   - This section is valuable to the user as they will be able to focus on getting into a good mindset and a state of relaxation.
-![Gallery](https://github.com/lucyrush/readme-template/blob/master/media/love_running_gallery.png)
+
+<img src='assets/images/gallery-project.png' alt='screenshot of gallery'>
 
 - __The Sign Up Page__
 
   - This page will allow the user to get signed up to Mountain of practice to start their mindfullness journey. The user will be asked to submit their full name and email address. 
 
-![Sign Up](https://github.com/lucyrush/readme-template/blob/master/media/love_running_signup.png)
+<img src='assets/images/signup-form-project.png' alt='screenshot of gallery'>
 
 ## Testing 
  - I tested that this page works for differen't browsers:Firefox,Chrome,Safari.
@@ -80,9 +82,11 @@
  - Accessibility 
  - I confirmed that the fonts and colors chosen are easily read and accessible by running it through lighthouse in devtools.
 
+ <img src='assets/images/lighthouse-screenshot.png' alt='screenshot of lighthouse testing'>
+
 ### Bugs
 
--Once the website was deployed, there was thankfully no bugs to be shown.
+- Once the website was deployed, there was thankfully no bugs to be shown.
 
 ## Deployment
 
